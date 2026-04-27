@@ -75,4 +75,13 @@ public:
         cout << "Keliling : " << 2 * (ll.s1 + ll.s2) << endl;
     }
  
-    
+    void tampilData() {
+        cout << "===== Output Data Belah Ketupat =====" << endl;
+        cout << "Diagonal 1  : " << d1                << endl;
+        cout << "Diagonal 2  : " << d2                << endl;
+        cout << "Sisi        : " << s                 << endl;
+        cout << "Luas        : " << hitungLuas()      << endl;
+        cout << "Keliling    : " << hitungKeliling()  << endl;
+    }
+};
+ 
