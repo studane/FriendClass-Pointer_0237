@@ -33,4 +33,14 @@ public:
         return 2 * (s1 + s2);
     }
  
-    
+    void tampilData() {
+        cout << "===== Output Data Layang-Layang =====" << endl;
+        cout << "Diagonal 1  : " << d1                << endl;
+        cout << "Diagonal 2  : " << d2                << endl;
+        cout << "Sisi 1      : " << s1                << endl;
+        cout << "Sisi 2      : " << s2                << endl;
+        cout << "Luas        : " << hitungLuas()      << endl;
+        cout << "Keliling    : " << hitungKeliling()  << endl;
+    }
+};
+ 
