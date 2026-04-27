@@ -85,3 +85,23 @@ public:
     }
 };
  
+int main() {
+    LayangLayang ll;
+    BelahKetupat bk;
+ 
+    ll.inputData();
+    cout << endl;
+    ll.tampilData();
+ 
+    cout << endl;
+ 
+    bk.inputData();
+    cout << endl;
+    bk.tampilData();
+ 
+    cout << endl;
+ 
+    bk.tampilKelilingLayangLayang(ll);
+ 
+    return 0;
+}
