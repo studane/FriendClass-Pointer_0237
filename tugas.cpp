@@ -68,4 +68,11 @@ public:
         return 4 * s;
     }
  
+    void tampilKelilingLayangLayang(LayangLayang& ll) {
+        cout << "===== Keliling Layang-Layang =====" << endl;
+        cout << "Sisi 1   : " << ll.s1 << endl;
+        cout << "Sisi 2   : " << ll.s2 << endl;
+        cout << "Keliling : " << 2 * (ll.s1 + ll.s2) << endl;
+    }
+ 
     
