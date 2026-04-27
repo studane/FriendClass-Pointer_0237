@@ -24,3 +24,9 @@ public:
         cout << "Masukkan sisi 2 (s2)     : ";
         cin  >> s2;
     }
+ 
+    double hitungLuas() {
+        return 0.5 * d1 * d2;
+    }
+ 
+   
