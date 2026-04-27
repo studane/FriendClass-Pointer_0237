@@ -44,3 +44,10 @@ public:
     }
 };
  
+class BelahKetupat {
+private:
+    double d1, d2;   
+    double s;        
+ 
+public:
+    
