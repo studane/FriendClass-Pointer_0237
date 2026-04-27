@@ -10,3 +10,17 @@ private:
     double d1, d2;
     double s1, s2;
  
+public:
+    friend class BelahKetupat;
+ 
+    void inputData() {
+        cout << "===== Input Data Layang-Layang =====" << endl;
+        cout << "Masukkan diagonal 1 (d1) : ";
+        cin  >> d1;
+        cout << "Masukkan diagonal 2 (d2) : ";
+        cin  >> d2;
+        cout << "Masukkan sisi 1 (s1)     : ";
+        cin  >> s1;
+        cout << "Masukkan sisi 2 (s2)     : ";
+        cin  >> s2;
+    }
